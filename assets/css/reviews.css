@@ -1,0 +1,44 @@
+/* fb */
+#reviews__fb{
+    margin-bottom: 80px;
+}
+.reviews__fb-container{
+    width: 100%;
+    height: 646px;
+    background: url(../img/main-fb-slider-img3.png) center/cover no-repeat;
+    padding: 135px 0 0 80px;
+}
+.reviews-fb-title{
+    font-family: var(--poppins-semibold);
+    font-size: 72px;
+font-weight: 600;
+line-height: 108px;
+letter-spacing: 0%;
+text-align: left;
+color: var(--white);
+}
+
+#all-reviews{
+    margin-bottom: 60px;
+}
+.all-reviews__container{
+    margin: 0 auto;
+    padding: 12px;
+    max-width: 1304px;
+    width: 100%;
+}
+.all-reviews__container .main-reviews-title{
+    margin-bottom: 50px;
+}
+.reviews-grid{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки одинаковой ширины */
+  gap: 65px;
+}
+
+.reviews-grid__item{
+    background-color: var(--dark-blue);
+    max-width: 380px;
+    width: 100%;
+    padding: 40px 45px 105px;
+}

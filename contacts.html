@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Профіль Інтернешнл | Контакти</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="site-nav">
+                <div class="menu-icon"></div>
+                <div class="logo-header">
+                    <a href="index.html"><img src="./assets/img/logo.svg"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Головна</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">Про нас</a>
+                        </li>
+                        <li>
+                            <a href="reviews.html" >Відгуки</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html" >Галерея</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <main>
+            <section id="contacts__fb">
+                <div class="contacts__fb-container">
+                    <div class="contacts-fb-title main-title title contacts-title">
+                        Контакти
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacts-feedback">
+                <div class="main-contacts__wrap">
+
+                    <div class="main-contacts-wrap__text">
+                        <div class="main-contacts__spoiler__title spoiler__title">Контакти</div>
+                        <div class="main-contacts-title main-title title">
+                            Наші контакти
+                        </div>
+                        <div class="main-contacts__date">
+                            <div class="main-contacts-date__item main-contacts-date__item-location">
+                                <img src="./assets/img/main-contact-location.png">
+                                <a href="#" class="simple-text" target="_blank">ГЕО</a>
+                            </div>
+
+                            <div class="main-contacts-date__item main-contacts-date__item-email">
+                                <img src="./assets/img/main-contact-letter.png">
+                                <a href="mailto:nnjnjnjn@gmail.com" class="simple-text" target="_blank">nnjnjnjn@gmail.com</a>
+                            </div>
+
+                            <div class="main-contacts-date__item main-contacts-date__item-phone">
+                                <img src="./assets/img/main-contact-phone.png">
+                                <a class="simple-text" href="tel:+380673201212" target="_blank">+38 (067) 320-12-12</a>
+                            </div>
+
+                            <div class="main-contacts-date__item main-contacts-date__item-mode">
+                                <img src="./assets/img/main-contact-clock.png">
+                                <span class="simple-text">Пн-Пт
+                                    <span>з
+                                    </span><span class="bold>">10:00</span>
+                                    <span>
+                                        до
+                                    </span><span class="bold>">19:00</span>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <form class="custom-form" action="send-form.php" method="POST">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="first-name">Імʼя:</label>
+                                <input type="text" id="first-name" name="first-name" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="last-name">Прізвище:</label>
+                                <input type="text" id="last-name" name="last-name" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Номер телефону:</label>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    required="required">
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="info">Важлива інформація:</label>
+                                <textarea id="info" name="info" rows="4"></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="form-contacts__button">Залишити заявку</button>
+                    </form>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer id="footer">
+            <div class="footer__container">
+                <div class="footer-logo">
+                    <img src="./assets/img/logo.svg">
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Головна</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html">Про нас</a>
+                        </li>
+                        <li>
+                            <a href="reviews.html">Відгуки</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Галерея</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__site-info">
+                    © 2025 Company
+                </div>
+            </div>
+        </footer>
+
+        <!-- script -->
+        <script src="./assets/js/jQuery v3.6.1.js"></script>
+        <script src="./assets/js/jquery.nice-select.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/slick.min.js"></script>
+        <script src="./assets/js/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,134 @@
+#contacts__fb{
+    margin-bottom: 80px;
+}
+
+.contacts__fb-container{
+    width: 100%;
+    height: 646px;
+    background: url(../img/main-fb-slider-img3.png) center/cover no-repeat;
+    padding: 135px 0 0 80px;
+}
+.contacts-fb-title{
+    font-family: var(--poppins-semibold);
+    font-size: 72px;
+font-weight: 600;
+line-height: 108px;
+letter-spacing: 0%;
+text-align: left;
+color: var(--white);
+}
+#contacts-feedback{
+    margin-bottom: 60px;
+}
+.main-contacts__wrap{
+     margin: 0 auto;
+    padding: 12px;
+    max-width: 1304px;
+    width: 100%;
+}
+.custom-form{
+  max-width: 715px;
+  width: 100%;
+}
+.custom-form .form-grid {
+  padding: 6px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  max-width: 715px;
+  width: 100%;       
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin-bottom: 15px;
+ 
+}
+
+.form-group label {
+    font-family: var(--poppins-medium);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: 15px; 
+}
+
+.form-group input {
+    font-family: var(--poppins-medium);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  max-width: 320px;
+  width: 100%;
+  height: 55px;
+  padding: 12px 16px; 
+  box-sizing: border-box;
+   resize: none;
+}
+.form-group textarea{
+  max-width: 700px;
+  width: 100%;
+   font-family: var(--poppins-medium);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  height: 55px;
+  padding: 12px 16px; 
+  box-sizing: border-box;
+   resize: none;
+}
+.form-group input:focus,
+.form-group textarea:focus{
+    border: 2px solid var(--blue);
+    outline: none;
+}
+.full-width {
+  grid-column: 1 / -1;
+  max-width: 703px;
+  height: 218px;
+  margin-bottom: 40px;
+}
+
+.full-width textarea {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  padding: 12px 16px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.full-width label {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: 5px;
+  display: block;
+}
+.form-contacts__button{
+    display: inline-flex;
+    padding: 20px 40px;
+    background-color: var(--blue);
+    margin: 0 auto;
+     color: var(--white);
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
